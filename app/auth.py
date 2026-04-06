@@ -1,7 +1,7 @@
 from fastapi import Header, HTTPException
 import jwt
 
-SECRET = "segredo_super_simples"
+SECRET = "secret"
 
 def get_current_user(authorization: str = Header(...)):
     try:
