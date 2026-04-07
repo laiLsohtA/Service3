@@ -5,6 +5,6 @@ class Tarefa(Base):
     __tablename__ = "tarefas"
 
     id = Column(Integer, primary_key=True, index=True)
-    titulo = Column(String)
+    titulo = Column(String(255))
     concluida = Column(Boolean, default=False)
     usuarioId = Column(Integer)
