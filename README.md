@@ -24,3 +24,6 @@ GET /stats
 - Python
 - FastAPI
 - SQLAlchemy
+
+## Banco DATABASE
+Coloque o link de um banco de dados MySQL para o DATABASE_URL
